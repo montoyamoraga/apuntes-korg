@@ -48,8 +48,6 @@ jobs:
             <div class="buttons">
               <button onclick="loadPDF('en.pdf')">English</button>
               <button onclick="loadPDF('es.pdf')">Español</button>
-              <a href="en.pdf" download>⬇ EN</a>
-              <a href="es.pdf" download>⬇ ES</a>
             </div>
             <iframe id="viewer" src="en.pdf"></iframe>
 
