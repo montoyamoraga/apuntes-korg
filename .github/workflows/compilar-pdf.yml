@@ -27,8 +27,8 @@ jobs:
       - name: prepare site
         run: |
           mkdir site
-          cp en/en.pdf site/en.pdf
-          cp es/es.pdf site/es.pdf
+          cp en.pdf site/en.pdf
+          cp es.pdf site/es.pdf
 
           cat > site/index.html << 'EOF'
           <!DOCTYPE html>
