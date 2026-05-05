@@ -24,11 +24,11 @@ jobs:
 
       - name: compile English PDF
         run: |
-          latexmk -pdf -interaction=nonstopmode -jobname=en "\def\ENGLISH{1} \input{main.tex}"
+          latexmk -pdf -interaction=nonstopmode -jobname=en en/en.tex
 
       - name: compile Spanish PDF
         run: |
-          latexmk -pdf -interaction=nonstopmode -jobname=es "\def\ENGLISH{0} \input{main.tex}"
+          latexmk -pdf -interaction=nonstopmode -jobname=es es/es.tex
 
       - name: preparar sitio
         run: |
