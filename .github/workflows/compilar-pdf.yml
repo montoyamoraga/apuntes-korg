@@ -23,6 +23,7 @@ jobs:
           root_file: |
             en/en.tex
             es/es.tex
+          work_in_root_file_dir: true
 
       - name: preparar sitio
         run: |
