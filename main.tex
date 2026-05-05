@@ -1,0 +1,15 @@
+\documentclass{article}
+
+\input{config/language.tex}
+
+\usepackage[english,spanish]{babel}
+
+\ifenglish
+  \input{shared/lang-en}
+\else
+  \input{shared/lang-es}
+\fi
+
+\begin{document}
+\input{shared/content}
+\end{document}
